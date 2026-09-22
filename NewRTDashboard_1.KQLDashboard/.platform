@@ -1,11 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
   "metadata": {
-    "type": "Notebook",
-    "displayName": "WeatherAPScrapingNotebook"
+    "type": "KQLDashboard",
+    "displayName": "NewRTDashboard_1"
   },
   "config": {
     "version": "2.0",
-    "logicalId": "d8ad7dab-c820-ac2a-42be-f6bbc3a65c0d"
+    "logicalId": "5c277b88-0b13-8992-491b-18b6228e3d95"
   }
 }
