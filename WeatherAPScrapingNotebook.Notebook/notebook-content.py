@@ -30,6 +30,7 @@
 import requests 
 import json 
 import pandas as pd
+import matplotlib.pyplot as plt
 
 # METADATA ********************
 
@@ -114,6 +115,39 @@ df=pd.DataFrame(json_clean_data,index=[0])
 # CELL ********************
 
 df.head()
+
+# METADATA ********************
+
+# META {
+# META   "language": "python",
+# META   "language_group": "jupyter_python"
+# META }
+
+# CELL ********************
+
+import 
+
+# METADATA ********************
+
+# META {
+# META   "language": "python",
+# META   "language_group": "jupyter_python"
+# META }
+
+# CELL ********************
+
+response
+
+# METADATA ********************
+
+# META {
+# META   "language": "python",
+# META   "language_group": "jupyter_python"
+# META }
+
+# CELL ********************
+
+print('changes are occured')
 
 # METADATA ********************
 
