@@ -1,0 +1,59 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/entityType/1.0.0/schema.json",
+  "id": "191319387417761",
+  "namespace": "usertypes",
+  "baseEntityTypeId": null,
+  "name": "campagns",
+  "entityIdParts": [
+    "884133904551415027"
+  ],
+  "displayNamePropertyId": null,
+  "namespaceType": "Custom",
+  "visibility": "Visible",
+  "properties": [
+    {
+      "id": "884133904551415027",
+      "name": "campaign_id",
+      "redefines": null,
+      "baseTypeNamespaceType": null,
+      "valueType": "BigInt"
+    },
+    {
+      "id": "884133907763074914",
+      "name": "duration_days",
+      "redefines": null,
+      "baseTypeNamespaceType": null,
+      "valueType": "BigInt"
+    },
+    {
+      "id": "884133905145393414",
+      "name": "end_date",
+      "redefines": null,
+      "baseTypeNamespaceType": null,
+      "valueType": "String"
+    },
+    {
+      "id": "884133905089253379",
+      "name": "name",
+      "redefines": null,
+      "baseTypeNamespaceType": null,
+      "valueType": "String"
+    },
+    {
+      "id": "884133906314157071",
+      "name": "start_date",
+      "redefines": null,
+      "baseTypeNamespaceType": null,
+      "valueType": "String"
+    },
+    {
+      "id": "884133905419614931",
+      "name": "total_budget",
+      "redefines": null,
+      "baseTypeNamespaceType": null,
+      "valueType": "Double"
+    }
+  ],
+  "timeseriesProperties": [],
+  "untypedProperties": []
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/entityType/1.0.0/schema.json",
+  "id": "151291032313682",
+  "namespace": "usertypes",
+  "baseEntityTypeId": null,
+  "name": "events",
+  "entityIdParts": [
+    "882347973515763346"
+  ],
+  "displayNamePropertyId": null,
+  "namespaceType": "Custom",
+  "visibility": "Visible",
+  "properties": [
+    {
+      "id": "882347928873517752",
+      "name": "ad_id",
+      "redefines": null,
+      "baseTypeNamespaceType": null,
+      "valueType": "BigInt"
+    },
+    {
+      "id": "882347930980654727",
+      "name": "day_of_week",
+      "redefines": null,
+      "baseTypeNamespaceType": null,
+      "valueType": "String"
+    },
+    {
+      "id": "882347973515763346",
+      "name": "event_id",
+      "redefines": null,
+      "baseTypeNamespaceType": null,
+      "valueType": "BigInt"
+    },
+    {
+      "id": "882347971525872182",
+      "name": "event_type",
+      "redefines": null,
+      "baseTypeNamespaceType": null,
+      "valueType": "String"
+    },
+    {
+      "id": "882347974192059059",
+      "name": "time_of_day",
+      "redefines": null,
+      "baseTypeNamespaceType": null,
+      "valueType": "String"
+    },
+    {
+      "id": "882347973144216436",
+      "name": "timestamp",
+      "redefines": null,
+      "baseTypeNamespaceType": null,
+      "valueType": "DateTime"
+    },
+    {
+      "id": "882347972560085546",
+      "name": "user_id",
+      "redefines": null,
+      "baseTypeNamespaceType": null,
+      "valueType": "String"
+    }
+  ],
+  "timeseriesProperties": [],
+  "untypedProperties": []
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/entityType/1.0.0/schema.json",
+  "id": "156107900549872",
+  "namespace": "usertypes",
+  "baseEntityTypeId": null,
+  "name": "ads",
+  "entityIdParts": [
+    "879830468656116843"
+  ],
+  "displayNamePropertyId": null,
+  "namespaceType": "Custom",
+  "visibility": "Visible",
+  "properties": [
+    {
+      "id": "879830468656116843",
+      "name": "ad_id",
+      "redefines": null,
+      "baseTypeNamespaceType": null,
+      "valueType": "BigInt"
+    },
+    {
+      "id": "879830467941328956",
+      "name": "ad_platform",
+      "redefines": null,
+      "baseTypeNamespaceType": null,
+      "valueType": "String"
+    },
+    {
+      "id": "879830468322246324",
+      "name": "ad_type",
+      "redefines": null,
+      "baseTypeNamespaceType": null,
+      "valueType": "String"
+    },
+    {
+      "id": "879830471499482504",
+      "name": "campaign_id",
+      "redefines": null,
+      "baseTypeNamespaceType": null,
+      "valueType": "BigInt"
+    },
+    {
+      "id": "879830468941779087",
+      "name": "target_age_group",
+      "redefines": null,
+      "baseTypeNamespaceType": null,
+      "valueType": "String"
+    },
+    {
+      "id": "879830470135621496",
+      "name": "target_gender",
+      "redefines": null,
+      "baseTypeNamespaceType": null,
+      "valueType": "String"
+    },
+    {
+      "id": "879830469440851297",
+      "name": "target_interests",
+      "redefines": null,
+      "baseTypeNamespaceType": null,
+      "valueType": "String"
+    }
+  ],
+  "timeseriesProperties": [],
+  "untypedProperties": []
+}

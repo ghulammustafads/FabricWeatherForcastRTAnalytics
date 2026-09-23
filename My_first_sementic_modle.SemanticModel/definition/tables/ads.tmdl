@@ -1,0 +1,76 @@
+table ads
+	lineageTag: 9ee084a3-f016-462a-9d76-f02a6c4e4a95
+	sourceLineageTag: [dbo].[ads]
+
+	column ad_id
+		dataType: int64
+		formatString: 0
+		lineageTag: afb41455-0a9c-4b65-aaa3-9cf9fe16cd54
+		sourceLineageTag: ad_id
+		summarizeBy: none
+		sourceColumn: ad_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column campaign_id
+		dataType: int64
+		formatString: 0
+		lineageTag: f007f5bf-20ed-4b7c-a006-f89383966dc8
+		sourceLineageTag: campaign_id
+		summarizeBy: none
+		sourceColumn: campaign_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column ad_platform
+		dataType: string
+		lineageTag: 9a698d92-1a5a-400e-bd98-76309dfe9041
+		sourceLineageTag: ad_platform
+		summarizeBy: none
+		sourceColumn: ad_platform
+
+		annotation SummarizationSetBy = Automatic
+
+	column ad_type
+		dataType: string
+		lineageTag: bcdad885-1d79-47b5-b7bf-10e2ee257f9e
+		sourceLineageTag: ad_type
+		summarizeBy: none
+		sourceColumn: ad_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column target_gender
+		dataType: string
+		lineageTag: b8f3db84-f0e6-496b-96ef-d21d4faaccb7
+		sourceLineageTag: target_gender
+		summarizeBy: none
+		sourceColumn: target_gender
+
+		annotation SummarizationSetBy = Automatic
+
+	column target_age_group
+		dataType: string
+		lineageTag: 42274501-7b65-47ed-8b7a-a9b41ff89322
+		sourceLineageTag: target_age_group
+		summarizeBy: none
+		sourceColumn: target_age_group
+
+		annotation SummarizationSetBy = Automatic
+
+	column target_interests
+		dataType: string
+		lineageTag: e98f3f99-be80-4781-8b63-41c6c8cffaf4
+		sourceLineageTag: target_interests
+		summarizeBy: none
+		sourceColumn: target_interests
+
+		annotation SummarizationSetBy = Automatic
+
+	partition ads = entity
+		mode: directLake
+		source
+			entityName: ads
+			schemaName: dbo
+			expressionSource: 'DirectLake - github_api_lakhouse'
+

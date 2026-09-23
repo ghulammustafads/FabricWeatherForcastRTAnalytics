@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Ontology",
+    "displayName": "my_first_sementic_model"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "cf9e1047-9af1-ae2b-4346-c3dd7743d581"
+  }
+}

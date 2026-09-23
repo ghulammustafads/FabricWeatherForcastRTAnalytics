@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "8ceca47a-fb68-4c13-a187-806424942d8e",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "campaign_id",
+        "targetPropertyId": "9096142645136221583"
+      },
+      {
+        "sourceColumnName": "name",
+        "targetPropertyId": "9096142701083390611"
+      },
+      {
+        "sourceColumnName": "start_date",
+        "targetPropertyId": "9096142731070550643"
+      },
+      {
+        "sourceColumnName": "end_date",
+        "targetPropertyId": "9096142752197545048"
+      },
+      {
+        "sourceColumnName": "duration_days",
+        "targetPropertyId": "9096142780271809772"
+      },
+      {
+        "sourceColumnName": "total_budget",
+        "targetPropertyId": "9096142801272221541"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "84c004f9-f9de-40d6-82a2-27049d845cdb",
+      "itemId": "3407163a-dfc9-47d8-a664-7072f210f373",
+      "sourceTableName": "campaigns",
+      "sourceSchema": "dbo"
+    }
+  }
+}

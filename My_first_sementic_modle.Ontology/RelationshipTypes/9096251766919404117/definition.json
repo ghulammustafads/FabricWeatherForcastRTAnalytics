@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/relationshipType/1.0.0/schema.json",
+  "namespace": "usertypes",
+  "id": "9096251766919404117",
+  "name": "gith_connection_data_has_ad_events",
+  "namespaceType": "Imported",
+  "source": {
+    "entityTypeId": "36025059029474"
+  },
+  "target": {
+    "entityTypeId": "64031547648963"
+  }
+}

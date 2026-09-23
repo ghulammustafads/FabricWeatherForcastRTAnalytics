@@ -1,0 +1,77 @@
+table ad_events
+	lineageTag: 82a89ad1-2e1e-4b6d-9460-312f19725638
+	sourceLineageTag: [dbo].[ad_events]
+
+	column event_id
+		dataType: int64
+		formatString: 0
+		lineageTag: a4c51adf-e4fe-45f0-9fc5-4276594e4fac
+		sourceLineageTag: event_id
+		summarizeBy: sum
+		sourceColumn: event_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column ad_id
+		dataType: int64
+		formatString: 0
+		lineageTag: f74c88ec-f6d3-473a-ad34-6e6d8591ffc2
+		sourceLineageTag: ad_id
+		summarizeBy: none
+		sourceColumn: ad_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column user_id
+		dataType: string
+		lineageTag: 8240dc83-f688-4ca5-8871-d3f2ce85fec8
+		sourceLineageTag: user_id
+		summarizeBy: none
+		sourceColumn: user_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column timestamp
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 5aa5fbe5-742f-47f3-84be-b8d88a1e06dc
+		sourceLineageTag: timestamp
+		summarizeBy: none
+		sourceColumn: timestamp
+
+		annotation SummarizationSetBy = Automatic
+
+	column day_of_week
+		dataType: string
+		lineageTag: 834ea6d7-52b4-4595-adb6-d7856ea6c945
+		sourceLineageTag: day_of_week
+		summarizeBy: none
+		sourceColumn: day_of_week
+
+		annotation SummarizationSetBy = Automatic
+
+	column time_of_day
+		dataType: string
+		lineageTag: 39d7ebc1-66f5-4d02-aab3-c82692b1ba41
+		sourceLineageTag: time_of_day
+		summarizeBy: none
+		sourceColumn: time_of_day
+
+		annotation SummarizationSetBy = Automatic
+
+	column event_type
+		dataType: string
+		lineageTag: 6910ab44-eea6-4e7d-b1c3-326a4318a57f
+		sourceLineageTag: event_type
+		summarizeBy: none
+		sourceColumn: event_type
+
+		annotation SummarizationSetBy = Automatic
+
+	partition ad_events = entity
+		mode: directLake
+		source
+			entityName: ad_events
+			schemaName: dbo
+			expressionSource: 'DirectLake - github_api_lakhouse'
+

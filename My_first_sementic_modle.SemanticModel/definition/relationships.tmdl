@@ -1,0 +1,14 @@
+relationship 18c00905-382c-94ea-3401-0ccb5bde8389
+	relyOnReferentialIntegrity
+	fromColumn: ad_events.ad_id
+	toColumn: ads.ad_id
+
+relationship 109d91c6-61a1-9972-e8be-14e6b9e63f34
+	relyOnReferentialIntegrity
+	fromColumn: ads.campaign_id
+	toColumn: campaigns.campaign_id
+
+relationship f1abc4a6-3e4f-a7a1-a988-7ccf3f82bd1b
+	fromColumn: gith_connection_data.user_id
+	toColumn: ad_events.user_id
+

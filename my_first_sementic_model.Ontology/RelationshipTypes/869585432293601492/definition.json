@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/relationshipType/1.0.0/schema.json",
+  "namespace": "usertypes",
+  "id": "869585432293601492",
+  "name": "campaigns_contains_ads",
+  "namespaceType": "Custom",
+  "source": {
+    "entityTypeId": "177540176837227"
+  },
+  "target": {
+    "entityTypeId": "221021617981631"
+  }
+}

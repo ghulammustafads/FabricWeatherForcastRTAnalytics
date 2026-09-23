@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/relationshipType/1.0.0/schema.json",
+  "namespace": "usertypes",
+  "id": "9096222823696652548",
+  "name": "ad_events_has_ads",
+  "namespaceType": "Imported",
+  "source": {
+    "entityTypeId": "64031547648963"
+  },
+  "target": {
+    "entityTypeId": "49761579104601"
+  }
+}

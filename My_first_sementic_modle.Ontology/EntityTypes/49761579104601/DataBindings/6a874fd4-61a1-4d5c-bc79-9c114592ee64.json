@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "6a874fd4-61a1-4d5c-bc79-9c114592ee64",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "ad_id",
+        "targetPropertyId": "9096143279214078578"
+      },
+      {
+        "sourceColumnName": "campaign_id",
+        "targetPropertyId": "9096143303260435294"
+      },
+      {
+        "sourceColumnName": "ad_platform",
+        "targetPropertyId": "9096143326921886124"
+      },
+      {
+        "sourceColumnName": "ad_type",
+        "targetPropertyId": "9096143351118626942"
+      },
+      {
+        "sourceColumnName": "target_gender",
+        "targetPropertyId": "9096143373571442004"
+      },
+      {
+        "sourceColumnName": "target_age_group",
+        "targetPropertyId": "9096143395840335914"
+      },
+      {
+        "sourceColumnName": "target_interests",
+        "targetPropertyId": "9096143418515710154"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "84c004f9-f9de-40d6-82a2-27049d845cdb",
+      "itemId": "3407163a-dfc9-47d8-a664-7072f210f373",
+      "sourceTableName": "ads",
+      "sourceSchema": "dbo"
+    }
+  }
+}

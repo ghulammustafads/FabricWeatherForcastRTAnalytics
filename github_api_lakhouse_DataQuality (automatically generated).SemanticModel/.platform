@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "github_api_lakhouse_DataQuality (automatically generated)",
+    "description": "Materialized Lake View Data Quality Semantic Model"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "06b70657-f46b-8ae7-496d-00101628104a"
+  }
+}

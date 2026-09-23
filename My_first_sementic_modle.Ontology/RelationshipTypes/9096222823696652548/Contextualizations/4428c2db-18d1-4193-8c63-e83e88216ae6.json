@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/contextualization/1.0.0/schema.json",
+  "id": "4428c2db-18d1-4193-8c63-e83e88216ae6",
+  "dataBindingTable": {
+    "workspaceId": "84c004f9-f9de-40d6-82a2-27049d845cdb",
+    "itemId": "3407163a-dfc9-47d8-a664-7072f210f373",
+    "sourceTableName": "ad_events",
+    "sourceSchema": "dbo",
+    "sourceType": "LakehouseTable"
+  },
+  "sourceKeyRefBindings": [
+    {
+      "sourceColumnName": "user_id",
+      "targetPropertyId": "9096143513544227512"
+    }
+  ],
+  "targetKeyRefBindings": [
+    {
+      "sourceColumnName": "ad_id",
+      "targetPropertyId": "9096143279214078578"
+    }
+  ]
+}

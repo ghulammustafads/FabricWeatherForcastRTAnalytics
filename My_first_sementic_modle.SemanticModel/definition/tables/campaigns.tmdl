@@ -1,0 +1,69 @@
+table campaigns
+	lineageTag: 3590f9fd-6c95-47e0-bbe4-9267d7957af2
+	sourceLineageTag: [dbo].[campaigns]
+
+	column campaign_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 68155304-bc76-4e50-a060-378989379bb0
+		sourceLineageTag: campaign_id
+		summarizeBy: none
+		sourceColumn: campaign_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		lineageTag: fdb530ff-c1ca-440d-b856-742b90f2d5bd
+		sourceLineageTag: name
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column start_date
+		dataType: string
+		lineageTag: 47b4cd6c-f845-40ab-86a9-249760128315
+		sourceLineageTag: start_date
+		summarizeBy: none
+		sourceColumn: start_date
+
+		annotation SummarizationSetBy = Automatic
+
+	column end_date
+		dataType: string
+		lineageTag: 98a87550-2f7b-4826-b810-0e0f1d0856c8
+		sourceLineageTag: end_date
+		summarizeBy: none
+		sourceColumn: end_date
+
+		annotation SummarizationSetBy = Automatic
+
+	column duration_days
+		dataType: int64
+		formatString: 0
+		lineageTag: 51225a95-d77f-4f01-b060-40174925fe18
+		sourceLineageTag: duration_days
+		summarizeBy: none
+		sourceColumn: duration_days
+
+		annotation SummarizationSetBy = Automatic
+
+	column total_budget
+		dataType: double
+		lineageTag: 8b7d73be-67d9-4b35-b056-c856efdcfd68
+		sourceLineageTag: total_budget
+		summarizeBy: none
+		sourceColumn: total_budget
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition campaigns = entity
+		mode: directLake
+		source
+			entityName: campaigns
+			schemaName: dbo
+			expressionSource: 'DirectLake - github_api_lakhouse'
+

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/contextualization/1.0.0/schema.json",
+  "id": "9c9fd190-3a6f-4d0d-95f1-4c4d09d27439",
+  "dataBindingTable": {
+    "workspaceId": "84c004f9-f9de-40d6-82a2-27049d845cdb",
+    "itemId": "3407163a-dfc9-47d8-a664-7072f210f373",
+    "sourceTableName": "ads",
+    "sourceSchema": "dbo",
+    "sourceType": "LakehouseTable"
+  },
+  "sourceKeyRefBindings": [
+    {
+      "sourceColumnName": "ad_id",
+      "targetPropertyId": "9096143279214078578"
+    }
+  ],
+  "targetKeyRefBindings": [
+    {
+      "sourceColumnName": "campaign_id",
+      "targetPropertyId": "9096142645136221583"
+    }
+  ]
+}

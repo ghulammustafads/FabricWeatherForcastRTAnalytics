@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "87c110d4-9e81-4083-8386-d6f522fdc326",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "event_id",
+        "targetPropertyId": "9096143044769644328"
+      },
+      {
+        "sourceColumnName": "ad_id",
+        "targetPropertyId": "9096143069870585738"
+      },
+      {
+        "sourceColumnName": "user_id",
+        "targetPropertyId": "9096143091407631958"
+      },
+      {
+        "sourceColumnName": "timestamp",
+        "targetPropertyId": "9096143115205997230"
+      },
+      {
+        "sourceColumnName": "day_of_week",
+        "targetPropertyId": "9096143137420061412"
+      },
+      {
+        "sourceColumnName": "time_of_day",
+        "targetPropertyId": "9096143162788881268"
+      },
+      {
+        "sourceColumnName": "event_type",
+        "targetPropertyId": "9096143185389674502"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "84c004f9-f9de-40d6-82a2-27049d845cdb",
+      "itemId": "3407163a-dfc9-47d8-a664-7072f210f373",
+      "sourceTableName": "gith_connection_data",
+      "sourceSchema": "dbo"
+    }
+  }
+}
